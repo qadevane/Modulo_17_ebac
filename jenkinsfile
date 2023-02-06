@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clonar o repositório') {
             steps {
-               git branch: 'main', url: 'https://github.com/Lewiz-QA/atividade_17_ebac.git'
+               git branch: 'main', url: 'https://github.com/qadevanes/Modulo_17_ebac'
             }
         }
      stage('Instalar dependências') {
