@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1667873596332' stop='1667873637868'>
+    <name>Acessar o Painel de Administrador</name>
+    <title>Acessar o Painel de Administrador</title>
+    <test-cases>
+        <test-case start='1667873596332' status='broken' stop='1667873637861'>
+            <name>Deve realizar login com credenciais válidas</name>
+            <title>Deve realizar login com credenciais válidas</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ebac-qe 9.0-9'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='faeddc32-756c-4e50-ac3f-54ae1e631827-attachment.mp4' type='video/mp4' size='214'/>
+            </attachments>
+            <failure>
+                <message>this[#regularPrice].clear(...).setValue is not a function</message>
+                <stack-trace>TypeError: this[#regularPrice].clear(...).setValue is not a function
+                    at newProductScreen.fillPrice (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\test\screens\newProduct.screeen.js:91:42)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\test\specs\login.spec.js:38:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

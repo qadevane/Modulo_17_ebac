@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668048914627' stop='1668048965158'>
+    <name>Acessar o Painel de Administrador</name>
+    <title>Acessar o Painel de Administrador</title>
+    <test-cases>
+        <test-case start='1668048914627' status='broken' stop='1668048965152'>
+            <name>Deve realizar login com credenciais válidas</name>
+            <title>Deve realizar login com credenciais válidas</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ebac-qe 9.0-9'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='441b487a-4e04-4729-bf18-db28b12f1eee-attachment.mp4' type='video/mp4' size='214'/>
+            </attachments>
+            <failure>
+                <message>Cannot set the element to '1000'. Did you interact with the correct element?</message>
+                <stack-trace>invalid element state: Cannot set the element to '1000'. Did you interact with the correct element?
+                    at getErrorFromResponseBody (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Element.wrapCommandFn (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

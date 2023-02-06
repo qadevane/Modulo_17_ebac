@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1667094004726' stop='1667094038638'>
+    <name>Acessar o Painel de Administrador</name>
+    <title>Acessar o Painel de Administrador</title>
+    <test-cases>
+        <test-case start='1667094004726' status='passed' stop='1667094030028'>
+            <name>Deve realizar login com credenciais válidas</name>
+            <title>Deve realizar login com credenciais válidas</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ebac-qe 9.0-9'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='53946cf7-bad0-479c-ad1b-7733c6efd132-attachment.mp4' type='video/mp4' size='214'/>
+            </attachments>
+        </test-case>
+        <test-case start='1667094030033' status='broken' stop='1667094038635'>
+            <name>Deve cadastrar um produto com sucesso</name>
+            <title>Deve cadastrar um produto com sucesso</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ebac-qe 9.0-9'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='8277d53c-090f-40ee-b7d1-dfed3412296f-attachment.mp4' type='video/mp4' size='209'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "~Simple physical product" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "~Simple physical product" because element wasn't found
+                    at implicitWait (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async productsScreen.selectTypeOfNewProduct (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\test\screens\products.screen.js:15:9)
+                    at async Context.&lt;anonymous> (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\test\specs\login.spec.js:29:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

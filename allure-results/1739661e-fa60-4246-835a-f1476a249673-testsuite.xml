@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1661122971672' stop='1661123020823'>
+    <name>Access Admin Panel</name>
+    <title>Access Admin Panel</title>
+    <test-cases>
+        <test-case start='1661122971673' status='broken' stop='1661123020818'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ebac-qe 9.0-9'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='dac33b5f-c9dd-4a36-9982-48ce71e2549d-attachment.mp4' type='video/mp4' size='185'/>
+            </attachments>
+            <failure>
+                <message>element ("~My store") still not existing after 30000ms</message>
+                <stack-trace>Error: element ("~My store") still not existing after 30000ms
+                    at E:\Particular\Studies\Ebac_Local\Modulo_16\testes-mobile-ebac-shop\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at async Element.wrapCommandFn (E:\Particular\Studies\Ebac_Local\Modulo_16\testes-mobile-ebac-shop\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (E:\Particular\Studies\Ebac_Local\Modulo_16\testes-mobile-ebac-shop\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (E:\Particular\Studies\Ebac_Local\Modulo_16\testes-mobile-ebac-shop\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (E:\Particular\Studies\Ebac_Local\Modulo_16\testes-mobile-ebac-shop\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (E:\Particular\Studies\Ebac_Local\Modulo_16\testes-mobile-ebac-shop\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (E:\Particular\Studies\Ebac_Local\Modulo_16\testes-mobile-ebac-shop\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async MyStoreScreen.myStoreLogoIsDisplayed (E:\Particular\Studies\Ebac_Local\Modulo_16\testes-mobile-ebac-shop\test\screens\myStore.screen.js:17:9)
+                    at async Context.&lt;anonymous> (E:\Particular\Studies\Ebac_Local\Modulo_16\testes-mobile-ebac-shop\test\specs\login.spec.js:20:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

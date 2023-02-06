@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1667094622322' stop='1667094652471'>
+    <name>Acessar o Painel de Administrador</name>
+    <title>Acessar o Painel de Administrador</title>
+    <test-cases>
+        <test-case start='1667094622322' status='passed' stop='1667094647653'>
+            <name>Deve realizar login com credenciais válidas</name>
+            <title>Deve realizar login com credenciais válidas</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ebac-qe 9.0-9'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='aef173b7-1018-47d0-bf58-5bfd405a9910-attachment.mp4' type='video/mp4' size='214'/>
+            </attachments>
+        </test-case>
+        <test-case start='1667094647658' status='passed' stop='1667094652467'>
+            <name>Deve cadastrar um produto com sucesso</name>
+            <title>Deve cadastrar um produto com sucesso</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ebac-qe 9.0-9'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='aa02adf4-0274-444c-b4b0-4dabbdcf3da3-attachment.mp4' type='video/mp4' size='209'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668906263030' stop='1668906329133'>
+    <name>Acessar o Painel de Administrador</name>
+    <title>Acessar o Painel de Administrador</title>
+    <test-cases>
+        <test-case start='1668906263031' status='broken' stop='1668906329127'>
+            <name>Deve realizar login com credenciais válidas</name>
+            <title>Deve realizar login com credenciais válidas</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ebac-qe 9.0-9'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='a28a5205-ded3-4729-a554-833bcd4d23fd-attachment.mp4' type='video/mp4' size='214'/>
+            </attachments>
+            <failure>
+                <message>ShadowToast is not defined</message>
+                <stack-trace>ReferenceError: ShadowToast is not defined
+                    at Context.&lt;anonymous> (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\test\specs\login.spec.js:49:9)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

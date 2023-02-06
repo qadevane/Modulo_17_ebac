@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1667092934493' stop='1667092935030'>
+    <name>Access Admin Panel</name>
+    <title>Access Admin Panel</title>
+    <test-cases>
+        <test-case start='1667092934493' status='broken' stop='1667092935022'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ebac-qe 9.0-9'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='9c8762f6-a547-41ed-97da-88cba840a152-attachment.mp4' type='video/mp4' size='192'/>
+            </attachments>
+            <failure>
+                <message>An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details</message>
+                <stack-trace>unknown error: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+                    at getErrorFromResponseBody (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Browser.$ (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at async Browser.wrapCommandFn (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async HomeScreen.goToLogin (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\test\screens\home.screen.js:7:9)
+                    at async Context.&lt;anonymous> (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\test\specs\login.spec.js:12:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

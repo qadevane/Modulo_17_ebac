@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668912283414' stop='1668912352509'>
+    <name>Acessar o Painel de Administrador e cadastrar Produto</name>
+    <title>Acessar o Painel de Administrador e cadastrar Produto</title>
+    <test-cases>
+        <test-case start='1668912283415' status='passed' stop='1668912352504'>
+            <name>Deve realizar Login e cadastrar Produto</name>
+            <title>Deve realizar Login e cadastrar Produto</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ebac-qe 9.0-9'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='a9b17dc2-3bc9-40b6-af49-498f3d5a5a15-attachment.mp4' type='video/mp4' size='231'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

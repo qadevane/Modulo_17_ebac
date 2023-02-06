@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1667873863509' stop='1667873910134'>
+    <name>Acessar o Painel de Administrador</name>
+    <title>Acessar o Painel de Administrador</title>
+    <test-cases>
+        <test-case start='1667873863509' status='broken' stop='1667873910126'>
+            <name>Deve realizar login com credenciais válidas</name>
+            <title>Deve realizar login com credenciais válidas</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ebac-qe 9.0-9'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='a2c14811-b65d-4670-8ae4-6f799c5b7df3-attachment.mp4' type='video/mp4' size='214'/>
+            </attachments>
+            <failure>
+                <message>element ("android= new UiSelector().text("Regular price")") still not existing after 5000ms</message>
+                <stack-trace>Error: element ("android= new UiSelector().text("Regular price")") still not existing after 5000ms
+                    at E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at async Element.wrapCommandFn (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async newProductScreen.fillPrice (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\test\screens\newProduct.screeen.js:90:9)
+                    at async Context.&lt;anonymous> (E:\Particular\Studies\Ebac_Local\Modulo_17\Atividade_17\atividade_17_ebac\test\specs\login.spec.js:38:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
