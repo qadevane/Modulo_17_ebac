@@ -1,5 +1,5 @@
 const homeScreen = require("../screens/home.screen");
-//const { login } = require("../screens/login.screen");
+const { login } = require("../screens/login.screen");
 const loginScreen = require("../screens/login.screen");
 const myStoreScreen = require("../screens/myStore.screen");
 const productsScreen = require("../screens/products.screen");
